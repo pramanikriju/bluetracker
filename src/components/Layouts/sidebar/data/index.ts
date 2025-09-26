@@ -15,7 +15,7 @@ export const NAV_DATA = [
         ],
       },
       {
-        title: "Sea Carbon Heatmap",
+        title: "Carbon Heatmap",
         icon: Icons.HomeIcon,
         items: [
           {
