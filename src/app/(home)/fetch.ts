@@ -1,23 +1,23 @@
 export async function getOverviewData() {
   // Fake delay
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  await new Promise((resolve) => setTimeout(resolve, 1500));
 
   return {
     views: {
-      value: 3456,
-      growthRate: 0.43,
+      value: 345673678,
+      growthRate: 98,
     },
     profit: {
       value: 4220,
-      growthRate: 4.35,
+      growthRate: 4.3,
     },
     products: {
-      value: 3456,
-      growthRate: 2.59,
+      value: 10100,
+      growthRate: 2.5,
     },
     users: {
-      value: 3456,
-      growthRate: -0.95,
+      value: 250,
+      growthRate: 5.4,
     },
   };
 }
@@ -28,7 +28,7 @@ export async function getChatsData() {
 
   return [
     {
-      name: "Jacob Jones",
+      name: "Vera-Maria",
       profile: "/images/user/user-01.png",
       isActive: true,
       lastMessage: {
@@ -40,7 +40,7 @@ export async function getChatsData() {
       unreadCount: 3,
     },
     {
-      name: "Wilium Smith",
+      name: "Mouaz",
       profile: "/images/user/user-03.png",
       isActive: true,
       lastMessage: {
@@ -52,7 +52,7 @@ export async function getChatsData() {
       unreadCount: 0,
     },
     {
-      name: "Johurul Haque",
+      name: "Ben",
       profile: "/images/user/user-04.png",
       isActive: false,
       lastMessage: {
@@ -64,7 +64,7 @@ export async function getChatsData() {
       unreadCount: 0,
     },
     {
-      name: "M. Chowdhury",
+      name: "Johannes",
       profile: "/images/user/user-05.png",
       isActive: false,
       lastMessage: {
@@ -76,7 +76,7 @@ export async function getChatsData() {
       unreadCount: 2,
     },
     {
-      name: "Akagami",
+      name: "Riju",
       profile: "/images/user/user-07.png",
       isActive: false,
       lastMessage: {
