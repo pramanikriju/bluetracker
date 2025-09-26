@@ -29,7 +29,7 @@ export async function getChatsData() {
   return [
     {
       name: "Vera-Maria",
-      profile: "/images/user/user-01.png",
+      profile: "/images/user/user-08.png",
       isActive: true,
       lastMessage: {
         content: "See you tomorrow at the meeting!",
@@ -53,7 +53,7 @@ export async function getChatsData() {
     },
     {
       name: "Ben",
-      profile: "/images/user/user-04.png",
+      profile: "/images/user/user-01.png",
       isActive: false,
       lastMessage: {
         content: "What's up?",
@@ -65,7 +65,7 @@ export async function getChatsData() {
     },
     {
       name: "Johannes",
-      profile: "/images/user/user-05.png",
+      profile: "/images/user/user-14.png",
       isActive: false,
       lastMessage: {
         content: "Where are you now?",
@@ -77,7 +77,7 @@ export async function getChatsData() {
     },
     {
       name: "Riju",
-      profile: "/images/user/user-07.png",
+      profile: "/images/user/user-19.png",
       isActive: false,
       lastMessage: {
         content: "Hey, how are you?",
