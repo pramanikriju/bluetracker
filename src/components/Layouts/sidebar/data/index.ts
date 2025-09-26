@@ -5,6 +5,16 @@ export const NAV_DATA = [
     label: "BLUE CARBON TRACKING",
     items: [
       {
+        title: "Data Dashboard",
+        icon: Icons.PieChart,
+        items: [
+          {
+            title: "MRV Overview",
+            url: "/",
+          },
+        ],
+      },
+      {
         title: "Sea Carbon Heatmap",
         icon: Icons.HomeIcon,
         items: [
@@ -22,16 +32,7 @@ export const NAV_DATA = [
           },
         ],
       },
-      {
-        title: "Data Dashboard",
-        icon: Icons.PieChart,
-        items: [
-          {
-            title: "MRV Overview",
-            url: "/",
-          },
-        ],
-      },
+
       {
         title: "Data Calendar",
         url: "/calendar",

@@ -39,11 +39,11 @@ export default async function Home({ searchParams }: PropsType) {
           className="col-span-12 xl:col-span-5"
         />
 
-        <UsedDevices
+        {/* <UsedDevices
           className="col-span-12 xl:col-span-5"
           key={extractTimeFrame("used_devices")}
           timeFrame={extractTimeFrame("used_devices")?.split(":")[1]}
-        />
+        /> */}
 
         <CarbonDataMap />
 
