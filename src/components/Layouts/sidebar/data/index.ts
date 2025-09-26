@@ -2,11 +2,29 @@ import * as Icons from "../icons";
 
 export const NAV_DATA = [
   {
-    label: "DATA ANALYTICS",
+    label: "BLUE CARBON TRACKING",
     items: [
       {
-        title: "Data Dashboard",
+        title: "Sea Carbon Heatmap",
         icon: Icons.HomeIcon,
+        items: [
+          {
+            title: "Interactive Heatmap",
+            url: "/carbon-dashboard/heatmap",
+          },
+          {
+            title: "Consumer Dashboard",
+            url: "/carbon-dashboard/consumer",
+          },
+          {
+            title: "Fisher Portal",
+            url: "/carbon-dashboard/producer",
+          },
+        ],
+      },
+      {
+        title: "Data Dashboard",
+        icon: Icons.PieChart,
         items: [
           {
             title: "MRV Overview",
@@ -62,6 +80,10 @@ export const NAV_DATA = [
         ],
       },
     ],
+  },
+  {
+    label: "DATA ANALYTICS",
+    items: [],
   },
   {
     label: "REPORTING & VERIFICATION",
