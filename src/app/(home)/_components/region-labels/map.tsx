@@ -9,7 +9,7 @@ export default function Map() {
   useEffect(() => {
     new jsVectorMap({
       selector: "#mapOne",
-      map: "us_aea_en",
+      map: "world",
       zoomButtons: true,
       regionStyle: {
         initial: {
